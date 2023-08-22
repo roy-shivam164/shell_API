@@ -4,12 +4,14 @@
   "description": "A node REST API",
   "main": "index.js",
   "scripts": {
-    "start":"node index.html"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "SHIVAM",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemon": "^3.0.1"
   }
 }
